@@ -1,0 +1,43 @@
+<html>
+  <head>
+    <title>Ultimate Tic Tac Toe Solver</title>
+    <link rel="stylesheet" href="Style.css" />
+  </head>
+
+  <body>
+    <div id="something">
+      <span id="sidebar">
+        <input
+          class="Menubutton"
+          type="button"
+          value="set game size"
+          onclick="game_set()"
+        />
+        <input
+          class="Menubutton"
+          type="button"
+          value="Show all moves"
+          onclick="resetCanvas(); if(board_size==3) {assignGameBoard();  solveUTTT(0, 0, false)} else {assignSmallGameBoard(); solveXO()}"
+        />
+        <input
+          class="Menubutton"
+          type="button"
+          value="Show first 10 wins"
+          onclick="resetCanvas(); if(board_size==3) {assignGameBoard();  firstTenWins(0, 0,false);} else {assignSmallGameBoard(); firstTenWinssmall();}"
+        />
+        <input
+          class="Menubutton"
+          type="button"
+          value="Show me 1 winner"
+          onclick="resetCanvas(); if(board_size==3) {assignGameBoard();  firstWin(0, 0,false);} else {assignSmallGameBoard(); firstWinnerSmall();}"
+        />
+        <h2 class="sideMenu" id="LBLplayerTurn">Player ( x ) turn</h2>
+      </span>
+      <span id="GameContainer"></span>
+    </div>
+    <div>
+      <canvas id="resultsCanvas"></canvas>
+    </div>
+    <script type="text/javascript" src="Game.js"></script>
+  </body>
+</html>
