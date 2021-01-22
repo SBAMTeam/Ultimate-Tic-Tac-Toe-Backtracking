@@ -1,1 +1,9 @@
-Null-Edge.github.io
+# Try it out!
+
+To try the algorithm, checkout [this](https://sbamteam.github.io/Ultimate-Tic-Tac-Toe-Backtracking/) out!
+
+# Contributors:
+
+- [Null-Edge](github.com/null-edge)
+- [Bashar Shehab](github.com/basharshehab)
+- [Salah Etma](github.com/salahetma)
