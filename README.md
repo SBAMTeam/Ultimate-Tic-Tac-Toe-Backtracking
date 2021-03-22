@@ -1,6 +1,6 @@
 # Try it out!
 
-To try the algorithm, checkout [this](https://sbamteam.github.io/Ultimate-Tic-Tac-Toe-Backtracking/) out!
+To try the algorithm, check [this](https://sbamteam.github.io/Ultimate-Tic-Tac-Toe-Backtracking/) out!
 
 # Contributors:
 
